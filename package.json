@@ -1,0 +1,23 @@
+{
+  "name": "react-native-template-scalable-redux",
+  "version": "0.1.0",
+  "description": "Template para projetos em React Native, com Estrutura de Pastas customizada, Estilos Globais, ESLint + Prettier + Babel Plugin Root Import, React Navigation, Redux, Redux Saga, Reactotron e Axios configurados.",
+  "keywords": [
+    "react-native",
+    "template",
+    "eslint",
+    "react-navigation",
+    "reactotron",
+    "babel-root-import",
+    "axios",
+    "redux",
+    "redux-saga"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuelmataraso/react-native-template-scalable-redux.git"
+  },
+  "homepage": "https://github.com/samuelmataraso/react-native-template-scalable-redux#readme",
+  "author": "Samuel Mataraso <samuelmataraso@gmail.com>",
+  "license": "MIT"
+}
