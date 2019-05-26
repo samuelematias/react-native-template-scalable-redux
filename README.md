@@ -30,7 +30,7 @@
 
 ## Sobre o Projeto
 
-Este projeto visa a criação de um template com organização e arquitetura para um Aplicação Mobile Escalável utilizando Redux e Redux-Saga que possa ser utilizado no momento de criação de projetos utilizando React Native, visto que o processo de instalação e configuração das libs no início de um projeto podem gerar certa complexidade e muitas vezes até erros que atrasam o processo, atrapalhando assim o fluxo de desenvolvimento.
+Este projeto visa a criação de um template com organização e arquitetura para uma Aplicação Mobile Escalável utilizando Redux e Redux-Saga que possa ser utilizado no momento de criação de projetos utilizando React Native, visto que o processo de instalação e configuração das libs no início de um projeto podem gerar certa complexidade e muitas vezes até erros que atrasam o processo, atrapalhando assim o fluxo de desenvolvimento.
 
 Para a criação desse template contei com a ajuda muito importante do [Talysson de Oliveira](https://twitter.com/talyssonoc). Caso tenha interesse sobre organização e arquitetura Escalável, você pode acessar o [Medium](https://blog.codeminer42.com/@talyssonoc) do Talysson, que lá existe alguns posts sobre o assunto.
 
