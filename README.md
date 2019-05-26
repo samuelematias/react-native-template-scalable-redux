@@ -118,12 +118,10 @@ A estrutura de arquivos está da seguinte maneira:
 │   │   │       ├── JobTable.js
 │   │   │       └── MoneyFormatting.js
 │   │   ├── state/
-│   │   │   └── user/
-│   │   │       ├── UserDuck.js
-│   │   │       └── UserSaga.js
+│   │   │   ├── UserDuck.js
+│   │   │   └── UserSaga.js
 │   │   └── infra/
-│   │       └── user/
-│   │           └── UserApiService.js
+│   │       └── UserApiService.js
 │   ├── store/
 │   │   ├── CreateStore.js
 │   │   ├── Ducks.js
@@ -263,19 +261,14 @@ Nesta seção haverão instruções caso você queira editar o template, explica
 
     - **state** - Diretório para guardar arquivos relacionados ao estado da aplicação, arquivos esses relacionados APENAS a feature de **User**.
 
-      - **user** - Exemplo de diretório que armazena arquivos do estado da aplicação relacionados APENAS a feature de **User**.
+      - **UserDuck.js** - Exemplo de um arquivo Redux referente APENAS a feature de **User**.
 
-        - **UserDuck.js** - Exemplo de um arquivo Redux referente APENAS a feature de **User**.
+      - **UserSaga.js** - Exemplo de um arquivo **Saga** referente a APENAS a feature de **User** e ligado ao arquivo UserDuck.js.
 
-        - **UserSaga.js** - Exemplo de um arquivo **Saga** referente a APENAS a feature de **User** e ligado ao arquivo UserDuck.js.
+    - **infra** - Diretório para guardar arquivos relacionados a comunicação com uma API que sejam referente a APENAS a feature de **User**.
+      E usado o termo Infra, porque seguindo a ideia de camadas, a comunicação com uma API é um integrante da camada de infra estrutura.
 
-      - **infra** - Diretório para guardar arquivos relacionados a comunicação com uma API que sejam referente a APENAS a feature de **User**.
-        E usado o termo Infra, porque seguindo a ideia de camadas, a comunicação com uma API é um integrante da camada de infra estrutura.
-
-        - **user** - Exemplo de um diretório que armazena arquivos de comunicação com a API de **User**.
-
-
-        - **UserApiService.js** - Exemplo de um arquivo que contem a comunicação com a API de **User**, no caso os EndPoints.
+      - **UserApiService.js** - Exemplo de um arquivo que contem a comunicação com a API de **User**, no caso os EndPoints.
 
 - **store** - Diretório onde será criada toda a estrutura do Redux para a aplicação, como os **Ducks** (Reducers + Action Types + Action Creators), os **Sagas** e um arquivo para centralizar toda essa configuração e disponibilizar para o restante da aplicação;
 
